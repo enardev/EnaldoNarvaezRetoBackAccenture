@@ -21,7 +21,7 @@ import com.enaldo.accenture.retoback.model.RepuestaModelo;
 import com.enaldo.accenture.retoback.service.PedidoServicio;
 
 @RestController
-@RequestMapping("/v1")
+@RequestMapping("/API")
 public class PedidoController {
 	@Autowired
 	@Qualifier("servicio")
